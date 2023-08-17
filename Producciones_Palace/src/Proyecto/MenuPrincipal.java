@@ -540,9 +540,9 @@ public class MenuPrincipal {
      */
     public void Main() {
 
-        Administrador admin1 = new Administrador("Steven", "rod", 20, "zzz", "hola", "steven@1gmail.com");
-        Cliente cliente1 = new Cliente("pedro", "rod", 15, "zzz", "hola", "steven@1gmail.com");
-        Cliente cliente2 = new Cliente("juan", "rod", 20, "rrr", "iii", "steven@1gmail.com");
+        Administrador admin1 = new Administrador("Steven", "Rodriguez", 19, "stevenzzz", "steven122", "steven@1gmail.com");
+        Cliente cliente1 = new Cliente("Pedro", "Gonzales", 20, "pedro12", "ped19", "pedro@1gmail.com");
+        Cliente cliente2 = new Cliente("Juan", "Villalobos", 15, "juan13", "juan61", "juan@1gmail.com");
         admins.registrarAdministrador(admin1);
         clientes.registrarCliente(cliente1);
         clientes.registrarCliente(cliente2);
